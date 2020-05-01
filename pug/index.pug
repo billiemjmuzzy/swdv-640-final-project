@@ -1,0 +1,43 @@
+extends layout.pug
+
+block config
+    - var title = "Home"
+
+block content
+    main
+        .view.jarallax(style='height: 100vh;')
+            img.jarallax-img(src='img/bg.jpg' alt='')
+            .mask.rgba-white-light
+            .container.flex-center.text-center
+                .row.mt-5
+                .col-md-12.col-xl-8.mx-auto.wow.fadeIn
+                    h1.brand-color-text.display-4.font-weight-bold.mb-2.wow.fadeInDown(data-wow-delay='0.3s') 
+                        | Welcome to Midstates Equipment & Supply
+        .container.my-5
+        // Section: Counter
+        section.p-5
+            h3.text-center.mb-5 By the Numbers
+            .row.d-flex.justify-content-center
+                .col-md-6.col-lg-3.mb-4.text-center
+                    h4.h1.font-weight-normal.mb-3
+                        i.fas.fa-file-alt.brand-text
+                        span.d-inline-block.count-up(data-from='0' data-to='100' data-time='2000') 100
+                    p.font-weight-normal.text-muted Stat 1
+                .col-md-6.col-lg-3.mb-4.text-center
+                    h4.h1.font-weight-normal.mb-3
+                        i.fas.fa-layer-group.blue-accent-text
+                        span.d-inline-block.count1(data-from='0' data-to='250' data-time='2000') 250
+                    p.font-weight-normal.text-muted Stat 2
+                .col-md-6.col-lg-3.mb-4.text-center
+                    h4.h1.font-weight-normal.mb-3
+                        i.fas.fa-pencil-ruler.green-accent-text
+                        span.d-inline-block.count2(data-from='0' data-to='330' data-time='2000') 330
+                    p.font-weight-normal.text-muted Stat 3
+                .col-md-6.col-lg-3.mb-4.text-center
+                    h4.h1.font-weight-normal.mb-3
+                        i.fab.fa-react.red-accent-text
+                        span.d-inline-block.count3(data-from='0' data-to='430' data-time='2000') 430
+                    p.font-weight-normal.text-muted Stat 4
+        // End Section: Counter
+        //.jarallax(data-video-src='https://youtu.be/lugard7P0nw')
+       

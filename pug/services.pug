@@ -1,0 +1,53 @@
+extends layout.pug
+
+block config
+    - var title = "Services"
+
+block content
+    div(style='height: 80vh').mt-5
+        .flex-center.flex-column.mt-5
+            // Section
+            section.mt-5
+                h3.font-weight-bold.text-center.dark-grey-text.pb-2 Services
+                hr.w-header.my-4
+                .row
+                    .col-md-6.col-xl-3.mb-4
+                        .services
+                            .card.text-center.brand-color.text-white
+                                .card-body
+                                    p.mt-4.pt-2
+                                    i.fas.fa-concierge-bell.fa-4x
+                                    h5.font-weight-normal.my-4.py-2
+                                    a.text-white(href='#') Equipment
+                                    p.mb-4
+                                    | Our full service technicians will service your equipment. Even if purchased elsewhere.
+                    .col-md-6.col-xl-3.mb-4
+                        .services
+                            .card.text-center
+                                .card-body
+                                    p.mt-4.pt-2
+                                    i.fas.fa-cogs.fa-4x.grey-text
+                                    h5.font-weight-normal.my-4.py-2
+                                    a.dark-grey-text(href='#') Parts
+                                    p.text-muted.mb-4 Our knowledgeable parts department can assist you with all or your parts needs!
+                    .col-md-6.col-xl-3.mb-4
+                        .services
+                            .card.text-center.blue-accent.lighten-1.text-white
+                                .card-body
+                                    p.mt-4.pt-2
+                                    i.fas.fa-user-hard-hat.fa-4x
+                                    h5.font-weight-normal.my-4.py-2
+                                    a.text-white(href='#') Safety Training
+                                    p.mb-4 We offer comprehensive safety training on all the equipment we sell.
+                    .col-md-6.col-xl-3
+                        .services
+                            .card.text-center
+                                .card-body
+                                    p.mt-4.pt-2
+                                    i.fad.fa-question.fa-4x.grey-text
+                                    h5.font-weight-normal.my-4.py-2
+                                    a.dark-grey-text(href='#') Support 
+                                    p.text-muted.mb-4
+                                    | Contact Alan Hirsch for Service and Support.
+            
+

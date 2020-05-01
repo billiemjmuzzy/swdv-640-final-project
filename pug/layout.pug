@@ -1,0 +1,41 @@
+block config
+  include config
+doctype html
+head
+  meta(charset='utf-8')
+  meta(name='viewport' content='width=device-width, initial-scale=1, shrink-to-fit=no')
+  meta(http-equiv='x-ua-compatible' content='ie=edge')
+  block head
+    title Midstates - #{title}
+  link(rel='icon' href='img/favicon.ico' type='image/x-icon')
+  // Font Awesome
+  script(src='https://kit.fontawesome.com/410f2d26c9.js' crossorigin='anonymous')
+  // Google Fonts Roboto
+  link(rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap')
+  // Bootstrap core CSS
+  link(href='css/bootstrap.min.css' rel='stylesheet')
+  // Material Design Bootstrap
+  link(href='css/mdb-pro.min.css' rel='stylesheet')
+  // Your custom styles (optional)
+  link(href='css/style.css' rel='stylesheet')
+body
+  include ../dist/partials/header.html
+  block content
+  include ../dist/partials/footer.html
+  block scripts
+    // SCRIPTS
+    // JQuery
+    script(type='text/javascript' src='js/jquery-3.4.1.min.js')
+    // Bootstrap tooltips
+    script(type='text/javascript' src='js/popper.min.js')
+    // Bootstrap core JavaScript
+    script(type='text/javascript' src='js/bootstrap.min.js')
+    // MDB core JavaScript
+    script(type='text/javascript' src='js/mdb.min.js')
+    // Custom JavaScript
+    script(type='text/javascript' src='js/custom.js')
+
+
+      
+
+

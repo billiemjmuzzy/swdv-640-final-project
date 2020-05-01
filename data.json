@@ -1,0 +1,18 @@
+{
+    "products": [
+        {
+            "productName": "Product 1", "imgSrc": "img/products/green-230-melter.jpg",
+            "productDescription":"Cake cake tootsie roll bonbon dessert jelly beans cookie. Jelly-o dragée dessert powder cookie icing. Tiramisu jelly-o cotton candy gummi bears sweet roll cheesecake. Lollipop gingerbread I love jujubes jelly-o I love jelly beans."
+        },
+        {
+            "productName": "Product 2",
+            "imgSrc": "img/products/24-inch.jpg",
+            "productDescription":"Cake cake tootsie roll bonbon dessert jelly beans cookie. Jelly-o dragée dessert powder cookie icing. Tiramisu jelly-o cotton candy gummi bears sweet roll cheesecake. Lollipop gingerbread I love jujubes jelly-o I love jelly beans."
+        },
+        {
+            "productName": "Product 3",
+            "imgSrc": "img/products/sps10.jpg",
+            "productDescription":"Dragée chocolate bar I love jelly beans I love chocolate lollipop I love. Tootsie roll I love biscuit I love. Chocolate cake I love sugar plum cotton candy chupa chups lemon drops I love gummi bears. Gingerbread cheesecake croissant gingerbread icing."
+        }
+    ]
+}
